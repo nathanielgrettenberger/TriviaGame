@@ -12,7 +12,7 @@ namespace TriviaGame
         static void Main(string[] args)
         {
             //Trivia game function goes here
-
+            Trivia 
         }
 
 

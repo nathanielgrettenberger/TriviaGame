@@ -8,7 +8,17 @@ namespace TriviaGame
 {
     class Trivia
     {
-        //TODO: Fill out the Trivia Object
+        public string Question { get; set; }
+        public string Answer { get; set; }
+
+        Trivia( string UserGuestion, string UserAnswer) 
         
+        {
+            Question = UserGuestion;
+            Answer = UserAnswer;
+        
+        
+        }
     }
+    
 }
